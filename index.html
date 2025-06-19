@@ -4,21 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <style>
+        .img0{
+            width: 160px;
+            height: auto;
+        }
+        nav ul{
+            list-style:none;
+            display: flex;
+            padding: 5px;
+            gap: 20px;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 80px 10px;
+        }
+        
+        .divconte{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        header{
+            background-color: blueviolet;
+            border-radius: 10px;
+            box-shadow: 0 0 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div>
-            <img src="/imagen/logo-jpg.htm" alt="">
+        <div class="divconte">
+            <div>
+                <img class="img0"src="/imagen/Wikispecies-logo.jpg" alt="">
+            </div>
+        
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">nosotros</a></li>
+                        <li><a href="#">informacion</a></li>
+                        <li><a href="#">contacto</a></li>
+                    </ul>
+                </nav>
         </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">nosotros</a></li>
-                <li><a href="#">informacio</a></li>
-                <li><a href="#">contacto</a></li>
-            </ul>
-        </nav>
     </header>
 </body>
 </html>
